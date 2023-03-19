@@ -25,7 +25,7 @@ function App() {
   const addPost = (newPost) => {
     setPosts([...posts, newPost]);
   };
-
+  
   return (
     <div className="app-container">
       <NavBar />
