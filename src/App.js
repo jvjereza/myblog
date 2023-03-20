@@ -8,7 +8,7 @@ function App() {
     {
       id: 1,
       title: 'My First Blog Post',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit consequat nisl, sed venenatis turpis sodales nec. Donec vitae ultrices justo, quis facilisis tortor. Sed quis dui eget justo consectetur tincidunt. Aenean ut leo eu lorem bibendum hendrerit.',
+      content: 'I am excited on sharing my thoughts today!',
     },
     {
       id: 2,
@@ -20,6 +20,16 @@ function App() {
       title: 'JavaScript Tips and Tricks',
       content: 'Suspendisse eu ex eget lectus consequat dictum. Nam pellentesque sem nec risus convallis, ut molestie nisl aliquam. Nulla facilisi. Fusce bibendum, lacus a lacinia dapibus, arcu nunc fringilla velit, ut viverra tellus justo id odio.',
     },
+    {
+      id: 4,
+      title: 'Is Music good for programmers?',
+      content: 'Suspendisse eu ex eget lectus consequat dictum. Nam pellentesque sem nec risus convallis, ut molestie nisl aliquam. Nulla facilisi. Fusce bibendum, lacus a lacinia dapibus, arcu nunc fringilla velit, ut viverra tellus justo id odio.',
+    },
+    {
+      id:5,
+      title: 'Elon Musk reaction about AI',
+      content: 'Suspendisse eu ex eget lectus consequ'
+    }
   ]);
 
   const addPost = (newPost) => {

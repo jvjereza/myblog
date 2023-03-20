@@ -33,3 +33,22 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+/* View Button styles */
+.view-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8E8E8E;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #E6E6E6;
+  color: #8E8E8E;
+}
